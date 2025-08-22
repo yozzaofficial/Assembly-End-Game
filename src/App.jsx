@@ -87,7 +87,6 @@ function letterClicked(letterClicked){
     ));
     killCode()
   }
-  console.log(keyboard)
 }
 
 
@@ -115,8 +114,8 @@ let gameWon = letter.every(lett => lett.isRev)
     setTheWord(newWord)
     setLetter(theWordInLetters(newWord))
     setLanguageCode(languages)
+    setKeyboard(keyboardJs)
   }
-  console.log(theWord)
   return (
     <>
       <main>
